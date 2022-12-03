@@ -6,187 +6,187 @@ function dayWrite() {
     // January
     if (today.getMonth() == 0) {
         if (today.getDate() == 1) {
-
+            nationalDay = "National Bloody Mary Day";
         }
         else if (today.getDate() == 2) {
-
+            nationalDay = "National Cream Puff Day";
         }
         else if (today.getDate() == 3) {
-
+            nationalDay = "National Chocolate Covered Cherry";
         }
         else if (today.getDate() == 4) {
-            
+            nationalDay = "National Spaghetti Day";
         }
         else if (today.getDate() == 5) {
-            
+            nationalDay = "National Whipped Cream Day";
         }
         else if (today.getDate() == 6) {
-            
+            nationalDay = "National Shortbread Day";
         }
         else if (today.getDate() == 7) {
-            
+            nationalDay = "National Tempura Day";
         }
         else if (today.getDate() == 8) {
-            
+            nationalDay = "National English Toffee Day";
         }
         else if (today.getDate() == 9) {
-            
+            nationalDay = "National Apricot Day";
         }
         else if (today.getDate() == 10) {
-            
+            nationalDay = "National Oysters Rockefeller Day";
         }
         else if (today.getDate() == 11) {
-            
+            nationalDay = "National Milk Day";
         }
         else if (today.getDate() == 12) {
-            
+            nationalDay = "National Curried Chicken Day";
         }
         else if (today.getDate() == 13) {
-            
+            nationalDay = "National Peach Melba Day";
         }
         else if (today.getDate() == 14) {
-            
+            nationalDay = "National Hot Pastrami Sandwich Day";
         }
         else if (today.getDate() == 15) {
-            
+            nationalDay = "National Strawberry Ice Cream Day";
         }
         else if (today.getDate() == 16) {
-            
+            nationalDay = "National Fig Newton Day";
         }
         else if (today.getDate() == 17) {
-            
+            nationalDay = "National Hot Buttered Rum Day";
         }
         else if (today.getDate() == 18) {
-            
+            nationalDay = "National Peking Duck Day";
         }
         else if (today.getDate() == 19) {
-            
+            nationalDay = "National Popcorn Day";
         }
         else if (today.getDate() == 20) {
-            
+            nationalDay = "National Buttercrunch Day";
         }
         else if (today.getDate() == 21) {
-            
+            nationalDay = "National Granola Bar Day";
         }
         else if (today.getDate() == 22) {
-            
+            nationalDay = "National Blonde Brownie Day";
         }
         else if (today.getDate() == 23) {
-            
+            nationalDay = "National Pie Day";
         }
         else if (today.getDate() == 24) {
-            
+            nationalDay = "National Peanut Butter Day";
         }
         else if (today.getDate() == 25) {
-            
+            nationalDay = "National Irish Coffee Day";
         }
         else if (today.getDate() == 26) {
-            
+            nationalDay = "National Peanut Brittle Day";
         }
         else if (today.getDate() == 27) {
-            
+            nationalDay = "National Chocolate Cake Day";
         }
         else if (today.getDate() == 28) {
-            
+            nationalDay = "National Blueberry Pancake Day";
         }
         else if (today.getDate() == 29) {
-            
+            nationalDay = "National Corn Chip Day";
         }
         else if (today.getDate() == 30) {
-
+            nationalDay = "National Croissant Day";
         }
         else if (today.getDate() == 31) {
-
+            nationalDay = "National Hot Chocolate Day";
         }
     }
     // February
     else if (today.getMonth() == 1) {
         if (today.getDate() == 1) {
-
+            nationalDay = "National Baked Alaska Day";
         }
         else if (today.getDate() == 2) {
-
+            nationalDay = "National Tater Tot Day";
         }
         else if (today.getDate() == 3) {
-
+            nationalDay = "National Carrot Cake Day";
         }
         else if (today.getDate() == 4) {
-            
+            nationalDay = "National Homemade Soup Day";
         }
         else if (today.getDate() == 5) {
-            
+            nationalDay = "World Nutella Day";
         }
         else if (today.getDate() == 6) {
-            
+            nationalDay = "National Frozen Yogurt Day";
         }
         else if (today.getDate() == 7) {
-            
+            nationalDay = "National Fettuccine Alfredo Day";
         }
         else if (today.getDate() == 8) {
-            
+            nationalDay = "National Kite Flying Day";
         }
         else if (today.getDate() == 9) {
-            
+            nationalDay = "National Pizza Day";
         }
         else if (today.getDate() == 10) {
-            
+            nationalDay = "National Cream Cheese Brownie Day";
         }
         else if (today.getDate() == 11) {
-            
+            nationalDay = "National Peppermint Patty Day";
         }
         else if (today.getDate() == 12) {
-            
+            nationalDay = "National Plum Pudding Day";
         }
         else if (today.getDate() == 13) {
-            
+            nationalDay = "National Cheddar Day";
         }
         else if (today.getDate() == 14) {
-            
+            nationalDay = "National Cream-Filled Chocolates Day";
         }
         else if (today.getDate() == 15) {
-            
+            nationalDay = "National Gumdrop Day";
         }
         else if (today.getDate() == 16) {
-            
+            nationalDay = "National Almond Day";
         }
         else if (today.getDate() == 17) {
-            
+            nationalDay = "National Cabbage Day";
         }
         else if (today.getDate() == 18) {
-            
+            nationalDay = "National Crab Stuffed Flouder Day";
         }
         else if (today.getDate() == 19) {
-            
+            nationalDay = "National Chocolate Mint Day";
         }
         else if (today.getDate() == 20) {
-            
+            nationalDay = "National Cherry Pie Day";
         }
         else if (today.getDate() == 21) {
-            
+            nationalDay = "National Sticky Bun Day";
         }
         else if (today.getDate() == 22) {
-            
+            nationalDay = "National Margarita Day";
         }
         else if (today.getDate() == 23) {
-            
+            nationalDay = "National Banana Bread Day";
         }
         else if (today.getDate() == 24) {
-            
+            nationalDay = "National Tortilla Chip Day";
         }
         else if (today.getDate() == 25) {
-            
+            nationalDay = "National Chcoolate Covered Nut Day";
         }
         else if (today.getDate() == 26) {
-            
+            nationalDay = "National Pistachio Day";
         }
         else if (today.getDate() == 27) {
-            
+            nationalDay = "National Strawberry Day";
         }
         else if (today.getDate() == 28) {
-            
+            nationalDay = "National Chocolate Souffle Day";
         }
         else if (today.getDate() == 29) {
-            
+            nationalDay = "National Time Refund Day";
         }
     }
     // March
