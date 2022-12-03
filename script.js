@@ -192,97 +192,97 @@ function dayWrite() {
     // March
     else if (today.getMonth() == 2) {
         if (today.getDate() == 1) {
-
+            nationalDay = "National Fruit Compote Day";
         }
         else if (today.getDate() == 2) {
-
+            nationalDay = "National Banana Cream Pie Day";
         }
         else if (today.getDate() == 3) {
-
+            nationalDay = "National Mulled Wine Day";
         }
         else if (today.getDate() == 4) {
-            
+            nationalDay = "National Pound Cake Day";
         }
         else if (today.getDate() == 5) {
-            
+            nationalDay = "National Absinthe Day";
         }
         else if (today.getDate() == 6) {
-            
+            nationalDay = "National Oreo Cookie Day";
         }
         else if (today.getDate() == 7) {
-            
+            nationalDay = "National Crown of Roast Pork Day";
         }
         else if (today.getDate() == 8) {
-            
+            nationalDay = "National Peanut Cluster Day";
         }
         else if (today.getDate() == 9) {
-            
+            nationalDay = "National Crabmeat Day";
         }
         else if (today.getDate() == 10) {
-            
+            nationalDay = "National Blueberry Popover Day";
         }
         else if (today.getDate() == 11) {
-            
+            nationalDay = "National Oatmeal Nut Waffles Day";
         }
         else if (today.getDate() == 12) {
-            
+            nationalDay = "National Baked Scallops Day";
         }
         else if (today.getDate() == 13) {
-            
+            nationalDay = "National Coconut Torte Day";
         }
         else if (today.getDate() == 14) {
-            
+            nationalDay = "National Potato Chip Day";
         }
         else if (today.getDate() == 15) {
-            
+            nationalDay = "National Pears Helene Day";
         }
         else if (today.getDate() == 16) {
-            
+            nationalDay = "National Artichoke Hearts Day";
         }
         else if (today.getDate() == 17) {
-            
+            nationalDay = "National Corned Beef and Cabbage Day";
         }
         else if (today.getDate() == 18) {
-            
+            nationalDay = "National Sloppy Joe Day";
         }
         else if (today.getDate() == 19) {
-            
+            nationalDay = "National Chocolate Caramel Day";
         }
         else if (today.getDate() == 20) {
-            
+            nationalDay = "National Ravioli Day";
         }
         else if (today.getDate() == 21) {
-            
+            nationalDay = "National French Bread Day";
         }
         else if (today.getDate() == 22) {
-            
+            nationalDay = "National Bavarian Crepes Day";
         }
         else if (today.getDate() == 23) {
-            
+            nationalDay = "National Melba Toast Day";
         }
         else if (today.getDate() == 24) {
-            
+            nationalDay = "National Cheesesteak Day";
         }
         else if (today.getDate() == 25) {
-            
+            nationalDay = "National Lobster Newburg Day";
         }
         else if (today.getDate() == 26) {
-            
+            nationalDay = "National Nougat Day";
         }
         else if (today.getDate() == 27) {
-            
+            nationalDay = "National Spanish Paella Day";
         }
         else if (today.getDate() == 28) {
-            
+            nationalDay = "National Black Forest Cake Day";
         }
         else if (today.getDate() == 29) {
-            
+            nationalDay = "National Lemon Chiffon Cake Day";
         }
         else if (today.getDate() == 30) {
-
+            nationalDay = "National Turkey Neck Soup Day";
         }
         else if (today.getDate() == 31) {
-
+            nationalDay = "National Clams on the Half Shell Day";
         }
     }
     // April
