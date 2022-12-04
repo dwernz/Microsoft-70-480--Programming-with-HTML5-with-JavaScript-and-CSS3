@@ -21,3 +21,9 @@ hr {
 }
 
 .card {margin: .5%;}
+
+@media all and (max-width: 768px) {
+    body {
+        font-size: 1.5em;
+    }
+}
