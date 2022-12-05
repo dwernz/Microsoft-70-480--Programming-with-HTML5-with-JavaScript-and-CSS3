@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS to Validate Data</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Can JS validate user input?</h1>
+    <p>Please enter number between 1 and 10</p>
+    <input id="nums" type="number">
+    <button type="button" onclick="checkData()">Verify Entry</button>
+    <p id="demo"></p>
+
+    <script>
+        function checkData() {
+            var x, text;
+            x = document.getElementById('nums').value;
+
+            if (isNaN(x) || x < 1 || x > 10) {
+                text = "Invalidate input, try again!";
+            }
+            else {
+                text = "All OK!";
+            }
+
+            document.getElementById('demo').innerHTML = text;
+        }
+    </script>
+</body>
+
+</html>

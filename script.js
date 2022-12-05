@@ -477,94 +477,94 @@ function dayWrite() {
     // June
     else if (today.getMonth() == 5) {
         if (today.getDate() == 1) {
-            nationalDay = "";
+            nationalDay = "National Hazelnut Cake Day";
         }
         else if (today.getDate() == 2) {
-            nationalDay = "";
+            nationalDay = "National Rotisserie Chicken Day";
         }
         else if (today.getDate() == 3) {
-            nationalDay = "";
+            nationalDay = "National Egg Day";
         }
         else if (today.getDate() == 4) {
-            nationalDay = "";
+            nationalDay = "National Cheese Day";
         }
         else if (today.getDate() == 5) {
-            nationalDay = "";
+            nationalDay = "National Moonshine Day";
         }
         else if (today.getDate() == 6) {
-            nationalDay = "";
+            nationalDay = "National Applesauce Cake Day";
         }
         else if (today.getDate() == 7) {
-            nationalDay = "";
+            nationalDay = "National VCR Day";
         }
         else if (today.getDate() == 8) {
-            nationalDay = "";
+            nationalDay = "National Name Your Poison Day";
         }
         else if (today.getDate() == 9) {
-            nationalDay = "";
+            nationalDay = "National Strawberry Rhubarb Pie Day";
         }
         else if (today.getDate() == 10) {
-            nationalDay = "";
+            nationalDay = "National Egg Roll Day";
         }
         else if (today.getDate() == 11) {
-            nationalDay = "";
+            nationalDay = "National Corn on the Cob Day";
         }
         else if (today.getDate() == 12) {
-            nationalDay = "";
+            nationalDay = "National Peanut Butter Cookie Day";
         }
         else if (today.getDate() == 13) {
-            nationalDay = "";
+            nationalDay = "National Kitchen Klutzes of America Day";
         }
         else if (today.getDate() == 14) {
-            nationalDay = "";
+            nationalDay = "National Bourbon Day";
         }
         else if (today.getDate() == 15) {
-            nationalDay = "";
+            nationalDay = "National Megalodon Day";
         }
         else if (today.getDate() == 16) {
-            nationalDay = "";
+            nationalDay = "National Fudge Day";
         }
         else if (today.getDate() == 17) {
-            nationalDay = "";
+            nationalDay = "National Stewart's Root Beer Day";
         }
         else if (today.getDate() == 18) {
-            nationalDay = "";
+            nationalDay = "National Go Fishing Day";
         }
         else if (today.getDate() == 19) {
-            nationalDay = "";
+            nationalDay = "National Garfield the Cat Day";
         }
         else if (today.getDate() == 20) {
-            nationalDay = "";
+            nationalDay = "National Ice Cream Soda Day";
         }
         else if (today.getDate() == 21) {
-            nationalDay = "";
+            nationalDay = "National Peaches 'N' Cream Day";
         }
         else if (today.getDate() == 22) {
-            nationalDay = "";
+            nationalDay = "National Onion Rings Day";
         }
         else if (today.getDate() == 23) {
-            nationalDay = "";
+            nationalDay = "National Detroit-Style Pizza Day";
         }
         else if (today.getDate() == 24) {
-            nationalDay = "";
+            nationalDay = "National Pralines Day";
         }
         else if (today.getDate() == 25) {
-            nationalDay = "";
+            nationalDay = "National Strawberry Parfait Day";
         }
         else if (today.getDate() == 26) {
-            nationalDay = "";
+            nationalDay = "National Coconut Day";
         }
         else if (today.getDate() == 27) {
-            nationalDay = "";
+            nationalDay = "National Ice Cream Cake Day";
         }
         else if (today.getDate() == 28) {
-            nationalDay = "";
+            nationalDay = "National Paul Bunyan Day";
         }
         else if (today.getDate() == 29) {
-            nationalDay = "";
+            nationalDay = "National Almond Buttercrunch Day";
         }
         else if (today.getDate() == 30) {
-            nationalDay = "";
+            nationalDay = "National Meteor Watch Day";
         }
     }
     // July

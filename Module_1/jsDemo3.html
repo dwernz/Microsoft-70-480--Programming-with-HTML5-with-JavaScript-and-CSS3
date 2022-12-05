@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS to Change Styles</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <p id="demo">Can JS change the style of this HTML element</p>
+
+    <script>
+        function changeStyle() {
+            var x = document.getElementById('demo');
+            x.style.fontSize="25px";
+            x.style.color="blue";
+        }
+    </script>
+    
+    <button type="button" onclick="changeStyle()">Click Me</button>
+</body>
+
+</html>
