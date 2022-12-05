@@ -77,50 +77,512 @@
                 
                 <div class="card text-dark col-lg-3">
                     <div class="card-body">
-                        <h5 class="card-title border-bottom">Hello World</h5>
-                        <p class="card-text">The first webpage for this course. Very basic, just setting up the webpage, and using some header tags</p>
+                        <h5 class="card-title border-bottom">Introduction to HTML5</h5>
+                        <p class="card-text">The first webpages for this course. Very basic, just setting up the webpage using HTML.</p>
+                        <ul class="card-text">
+                            <li>HTML is the <i>defacto language</i> for publishing hypertext on the World Wide Web</li>
+                            <li>Define tags &#x003c;html&#x003e;, &#x003c;body&#x003e;, &#x003c;head&#x003e;, etc.</li>
+                            <li>ALlow to embed other scripting languages to manipulate design, layout, text, and graphics.</li>
+                            <li>Platform independent.</li>
+                        </ul>
                         <div class="text-center">
-                            <a href="Module_1/helloWorld.html" class="btn btn-primary" target="_blank">Visit Webpage</a>
+                            <a href="Module_1/helloWorld.html" class="btn btn-primary mt-2" target="_blank">Hello World</a>
+                            <a href="Module_1/introToHTML5.html" class="btn btn-primary mt-2" target="_blank">Intro to HTML5</a>
                         </div>
                     </div>
                 </div>
-
 
                 <div class="card text-dark col-lg-3">
                     <div class="card-body">
-                        <h5 class="card-title border-bottom">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                            content.</p>
+                        <h5 class="card-title border-bottom">Introduction to CSS3</h5>
+                        <p class="card-text">
+                            Using CSS3 to style the webpage from boring plain text by changing styling elements such as font-family, font-size, color, and text-alignment.
+                            Used embedded, inline, and external styling for different elements on the page.
+                        </p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="Module_1/introToCSS.html" class="btn btn-primary mt-2" target="_blank">Intro to CSS3</a>
+                            <a href="Module_1/moreCSS.html" class="btn btn-primary mt-2" target="_blank">More CSS</a>
                         </div>
                     </div>
                 </div>
 
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">The Structure of an HTML Page</h5>
+                        <ul class="card-text">
+                            <li>
+                                All HTML pages have the same Structure
+                                <ul>
+                                    <li>DOCTYPE declaration</li>
+                                    <li>HTML section containing:
+                                        <ul>
+                                            <li>Head</li>
+                                            <li>Body</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Each version of HTML has its own DOCTYPE
+                                <ul>
+                                    <li>The browser uses the DOCTYPE declaration to determine how to interpret the HTML markup</li>
+                                    <li>For HTML5 pages, specify a DOCTYPE of html</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            </div>
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Tags, Elements, Attributes, and Content</h5>
+                        <ul class="card-text">
+                            <li>HTML elements define the structure and semantics of content on a web page.</li>
+                            <li>Elements identify their content by surrounding it with a start and an end tag</li>
+                            <li>Elements can be nested</li>
+                            <li>Use attributes to provide additional information about the content of an element.</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="Module_1/nested.html" class="btn btn-primary mt-2">Nested</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Attaching Scripts to an HTML Page</h5>
+                        <ul class="card-text">
+                            <li>HTML is static, but pages can use JavaScript to add dynamic behavior</li>
+                            <li>Use the &#x003c;script&#x003e; element to specify the location of the JavaScript code
+                                <ul>
+                                    <li>The order of &#x003c;script&#x003e; elements is important</li>
+                                    <li>Make sure objects and functions are in scope before they are used</li>
+                                </ul>
+                            </li>
+                            <li>Use the &#x003c;noscript&#x003e; element to alert users with browsers that have scripting disabled.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Overview of CSS Syntax</h5>
+                        <ul class="card-text">
+                            <li>All CSS rules have the same syntax</li>
+                            <li>Comments are enclosed in /* ... */ delimiters</li>
+                            <li>There are three basic CSS selectors
+                                <ul>
+                                    <li>The element selector: h2 {}</li>
+                                    <li>The class selector: .myClass {}</li>
+                                    <li>The id selector: #thisId {}</li>
+                                </ul>
+                            </li>
+                            <li>CSS selectors can be combined to create more specific rules</li>
+                            <li>The wildcard * selector returns the set of all elements</li>
+                            <li>Use [...] to refine selectors based on attribute values</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">How HTML Inheritance and Cascading Styles Affect Styling</h5>
+                        <ul class="card-text">
+                            <li>HTML inheritance and the CSS cascade mechanism govern how browsers apply style rules</li>
+                            <li>HTML inheritance determines which style properties an element inherits from its parent</li>
+                            <li>The cascade mechanism determines how style properties are applied when conflicting rules apply to the same element</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Adding Styles to An HTML Page</h5>
+                        <ul class="card-text">
+                            <li>Use an element's style attribute to define styles specific to that element</li>
+                            <li>Use the &#x003c;style&#x003e; element in the &#x003c;head&#x003e; to include styles specific to a page</li>
+                            <li>Use the &#x003c;link&#x003e; element to reference an external style sheet</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">What's New in HTML5?</h5>
+                        <ul class="card-text">
+                            <li>HTML5 provides many extensions over previous versions, including:
+                                <ul>
+                                    <li>Rules for browser vendors</li>
+                                    <li>New elements that reflect modern web application development</li>
+                                    <li>JavaScript APIs that support desktop and mobile application capabilities</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Document Structure in HTML5</h5>
+                        <ul class="card-text">
+                            <li>HTML provides new elements to define the structure of a web page:
+                                <ul>
+                                    <li>&#x003c;section&#x003e; to divide up main content</li>
+                                    <li>&#x003c;header&#x003e; and &#x003c;footer&#x003e; for page headers and footers</li>
+                                    <li>&#x003c;nav&#x003e; for navigation links</li>
+                                    <li>&#x003c;article&#x003e; for stand-alone content</li>
+                                    <li>&#x003c;aside&#x003e; for quotes and sidebar content</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Text and Images in HTML5</h5>
+                        <ul class="card-text">
+                            <li>HTML5 defines new text elements, including:
+                                <ul>
+                                    <li>&#x003c;hgroup&#x003e;</li>
+                                    <li>&#x003c;time&#x003e;</li>
+                                    <li>&#x003c;mark&#x003e;</li>
+                                    <li>&#x003c;small&#x003e;</li>
+                                    <li>&#x003c;figure&#x003e; and &#x003c;figcaption&#x003e;</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Understanding CSS Text Styles</h5>
+                        <ul class="card-text">
+                            <li>CSS Text Styling supports:
+                                <ul>
+                                    <li>Fonts
+                                        <ul>
+                                            <li>font-family</li>
+                                            <li>font-size</li>
+                                            <li>font-style</li>
+                                            <li>font-weight</li>
+                                        </ul>
+                                    </li>
+                                    <li>Colors
+                                        <ul>
+                                            <li>color</li>
+                                            <li>opacity</li>
+                                        </ul>
+                                    </li>
+                                    <li>Typography
+                                        <ul>
+                                            <li>letter-spacing</li>
+                                            <li>line-height</li>
+                                            <li>text-align</li>
+                                            <li>text-decoration</li>
+                                            <li>text-transform</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">The CSS Box Model</h5>
+                        <ul class="card-text">
+                            <li>The CSS box model treats each element as a collection of four concentric boxes</li>
+                            <li>CSS defines properties that:
+                                <ul>
+                                    <li>Control how a box is laid out on a page</li>
+                                    <li>Alter the height and width, and the style of the border</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Styling Backgrounds in CSS</h5>
+                        <ul class="card-text">
+                            <li>Set the background for an element by using the CSS background properties:"
+                                <ul>
+                                    <li>background-image</li>
+                                    <li>background-size</li>
+                                    <li>background-color</li>
+                                    <li>background-position</li>
+                                    <li>background-origin</li>
+                                    <li>background-repeat</li>
+                                    <li>background-attachment</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">What is JavaScript?</h5>
+                        <ul class="card-text">
+                            <li>JavaScript is a programming language that supports:
+                                <ul>
+                                    <li>Variables</li>
+                                    <li>Operators</li>
+                                    <li>Functions</li>
+                                    <li>Conditional Statements and Loops</li>
+                                    <li>Objects</li>
+                                </ul>
+                            </li>
+                            <li>Use JavaScript with the Document Object Model (DOM) and Browser Object Model to make web pages dynamic</li>
+                            <li>Use the AJAX API to make asynchronous requests to a web server.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">JavaScript Syntax</h5>
+                        <ul class="card-text">
+                            <li>A JavaScript statement represents a line of code to run</li>
+                            <li>Terminate statements with a semicolon</li>
+                            <li>Use comments to add notes to your scripts</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Variables, Data Types, and Operators</h5>
+                        <ul class="card-text">
+                            <li>Use <strong>var</strong> to declare variables</li>
+                            <li>JavaScript has three simple Types
+                                <ul>
+                                    <li>String, Number, and Boolean</li>
+                                    <li>Variables can also be undefined or null</li>
+                                </ul>
+                            </li>
+                            <li>JavaScript supports many Operators
+                                <ul>
+                                    <li>Arithmetic, assignment, comparison, Boolean, conditional, and string</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Functions</h5>
+                        <ul class="card-text">
+                            <li>Functions are named blocks of reusable code:
+                                <ul>
+                                    <li>Arguments are only accessible inside the function</li>
+                                    <li>A function can return a value</li>
+                                    <li>A function can also declare local variables</li>
+                                    <li>Global variables defined outside of a function are available to all functions in scripts referenced by a page</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Using Object Types</h5>
+                        <ul class="card-text">
+                            <li>JavaScript has a number of built-in object types:
+                                <ul>
+                                    <li>String, Date, Array, RegExp</li>
+                                </ul>
+                            </li>
+                            <li>JavaScript also provides singleton types providing useful functionality:
+                                <ul>
+                                    <li>Math, Global</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Defining Arrays of Objects by Using JSON</h5>
+                        <ul class="card-text">
+                            <li>JSON is a format for serializing objects</li>
+                            <li>JavaScript provides APIs for serializing and parsing JSON data</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">The Document Object Model</h5>
+                        <ul class="card-text">
+                            <li>The DOM provides a programmatic API for controlling a browser and accessing the contents of a web page:
+                                <ul>
+                                    <li>Finding and setting the values of elements on a page</li>
+                                    <li>Handling events for controls on a page</li>
+                                    <li>Modifying the styles associated with elements</li>
+                                    <li>Serializing and deserializing a page as an XML document</li>
+                                    <li>Validating and updating web pages</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Adding, Removing, and Manipulating Objects in the DOM</h5>
+                        <ul class="card-text">
+                            <li>To modify an element on a page:
+                                <ol>
+                                    <li>Create a new object containing the new data</li>
+                                    <li>Find the parent element that should contain the new data</li>
+                                    <li>Append, insert, or replace the data in the element with the new data</li>
+                                </ol>
+                            </li>
+                            <li>To remove an element or attribute"
+                                <ol>
+                                    <li>Find the parent element</li>
+                                    <li>Use <strong>removeChild</strong> or <strong>removeAttribute</strong> to remove the data</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Handling Events in the DOM</h5>
+                        <ul class="card-text">
+                            <li>The DOM defines events that can be triggered by the browser or by the user</li>
+                            <li>Many HTML elements define callbacks that run when an event occurs</li>
+                            <li>You can also define event listeners that run when an event fires</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">JS Demo</h5>
+                        <p class="card-text">
+                            Using JavaScript to create behavior for the web page.<br>
+                            Demo 1 demonstrates using the onclick and onmouseover events.<br>
+                            Demo 2 shows the ability to change preexisting content.<br>
+                            Demo 3 changes the styling of elements.<br>
+                            Demo 4 validates user input.<br>
+                            Demo 5 moves the script to the head tag.<br>
+                            Demo 6 uses an external script file.
+                        </p>
+                        <div class="text-center">
+                            <a href="Module_1/jsDemo1.html" class="btn btn-primary mt-2" target="_blank">JS Demo 1</a>
+                            <a href="Module_1/jsDemo2.html" class="btn btn-primary mt-2" target="_blank">JS Demo 2</a>
+                            <a href="Module_1/jsDemo3.html" class="btn btn-primary mt-2" target="_blank">JS Demo 3</a>
+                            <a href="Module_1/jsDemo4.html" class="btn btn-primary mt-2" target="_blank">JS Demo 4</a>
+                            <a href="Module_1/jsDemoFunctions.html" class="btn btn-primary mt-2" target="_blank">JS Demo 5</a>
+                            <a href="Module_1/jsDemo6.html" class="btn btn-primary mt-2" target="_blank">JS Demo 6</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             <div class="text-center mt-5">
                 <button class="btn btn-primary"><a href="#top" class="text-light text-decoration-none">Back to Top</a></button>
             </div>
+
         </div>
         <!-- Module 1 End -->
 
         <!-- Module 2 -->
         <div class="white-section" id="module2">
             <h3 class="text-center">Module 2: HTML</h3>
+            
             <div class="row justify-content-center mt-5">
+                
                 <div class="card col-lg-3">
                     <div class="card-body">
                         <h5 class="card-title border-bottom">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                             content.</p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
                         </div>
                     </div>
                 </div>
+
+                <div class="card col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+            
             
             <div class="text-center mt-5">
                 <button class="btn btn-primary"><a href="#top" class="text-light text-decoration-none">Back to Top</a></button>
@@ -138,7 +600,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                             content.</p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +623,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                             content.</p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -184,7 +646,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                             content.</p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
                         </div>
 
                     </div>
@@ -207,7 +669,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                             content.</p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -230,7 +692,7 @@
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                             content.</p>
                         <div class="text-center">
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary mt-2">Go somewhere</a>
                         </div>
                     </div>
                 </div>
