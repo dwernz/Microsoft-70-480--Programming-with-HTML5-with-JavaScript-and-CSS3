@@ -22,20 +22,6 @@ hr {
 
 .card {margin: .5%;}
 
-.showcase {
-    position: absolute;
-    right: 0;
-    width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #333333;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
 @media all and (max-width: 768px) {
     body {
         font-size: 1.5em;
