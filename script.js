@@ -153,7 +153,7 @@ function dayWrite() {
             nationalDay = "National Cabbage Day";
         }
         else if (today.getDate() == 18) {
-            nationalDay = "National Crab Stuffed Flouder Day";
+            nationalDay = "National Crab Stuffed Flounder Day";
         }
         else if (today.getDate() == 19) {
             nationalDay = "National Chocolate Mint Day";
@@ -174,7 +174,7 @@ function dayWrite() {
             nationalDay = "National Tortilla Chip Day";
         }
         else if (today.getDate() == 25) {
-            nationalDay = "National Chcoolate Covered Nut Day";
+            nationalDay = "National Chocolate Covered Nut Day";
         }
         else if (today.getDate() == 26) {
             nationalDay = "National Pistachio Day";
@@ -288,283 +288,283 @@ function dayWrite() {
     // April
     else if (today.getMonth() == 3) {
         if (today.getDate() == 1) {
-
+            nationalDay = "National Sourdough Bread Day";
         }
         else if (today.getDate() == 2) {
-
+            nationalDay = "National Peanut Butter and Jelly Day";
         }
         else if (today.getDate() == 3) {
-
+            nationalDay = "National Chocolate Mousse Day";
         }
         else if (today.getDate() == 4) {
-            
+            nationalDay = "National Chicken Cordon Bleu Day";
         }
         else if (today.getDate() == 5) {
-            
+            nationalDay = "National Caramel Day";
         }
         else if (today.getDate() == 6) {
-            
+            nationalDay = "New Beer's Eve";
         }
         else if (today.getDate() == 7) {
-            
+            nationalDay = "National Beer Day";
         }
         else if (today.getDate() == 8) {
-            
+            nationalDay = "National Empanada Day";
         }
         else if (today.getDate() == 9) {
-            
+            nationalDay = "National Chinese Almond Cookie Day";
         }
         else if (today.getDate() == 10) {
-            
+            nationalDay = "National Cinnamon Crescent Day";
         }
         else if (today.getDate() == 11) {
-            
+            nationalDay = "National Cheese Fondue Day";
         }
         else if (today.getDate() == 12) {
-            
+            nationalDay = "National Grilled Cheese Sandwich Day";
         }
         else if (today.getDate() == 13) {
-            
+            nationalDay = "National Peach Cobbler Day";
         }
         else if (today.getDate() == 14) {
-            
+            nationalDay = "National Pecan Day";
         }
         else if (today.getDate() == 15) {
-            
+            nationalDay = "National Glazed Spiral Ham Day";
         }
         else if (today.getDate() == 16) {
-            
+            nationalDay = "National Eggs Benedict Day";
         }
         else if (today.getDate() == 17) {
-            
+            nationalDay = "National Crawfish Day";
         }
         else if (today.getDate() == 18) {
-            
+            nationalDay = "National Animal Crackers Day";
         }
         else if (today.getDate() == 19) {
-            
+            nationalDay = "National Garlic Day";
         }
         else if (today.getDate() == 20) {
-            
+            nationalDay = "National Cheddar Fries Day";
         }
         else if (today.getDate() == 21) {
-            
+            nationalDay = "National Chocolate Covered Cashews Day";
         }
         else if (today.getDate() == 22) {
-            
+            nationalDay = "National Jelly Bean Day";
         }
         else if (today.getDate() == 23) {
-            
+            nationalDay = "National Cherry Cheesecake Day";
         }
         else if (today.getDate() == 24) {
-            
+            nationalDay = "National Pigs in a Blanket Day";
         }
         else if (today.getDate() == 25) {
-            
+            nationalDay = "National Zucchini Bread Day";
         }
         else if (today.getDate() == 26) {
-            
+            nationalDay = "National Pretzel Day";
         }
         else if (today.getDate() == 27) {
-            
+            nationalDay = "National Gummi Bear Day";
         }
         else if (today.getDate() == 28) {
-            
+            nationalDay = "National Blueberry Pie Day";
         }
         else if (today.getDate() == 29) {
-            
+            nationalDay = "National Shrimp Scampi Day";
         }
         else if (today.getDate() == 30) {
-            
+            nationalDay = "National Bubble Tea Day";
         }
     }
     // May
     else if (today.getMonth() == 4) {
         if (today.getDate() == 1) {
-
+            nationalDay = "National Chocolate Parfait Day";
         }
         else if (today.getDate() == 2) {
-
+            nationalDay = "National Truffle Day";
         }
         else if (today.getDate() == 3) {
-
+            nationalDay = "National Raspberry Popover Day";
         }
         else if (today.getDate() == 4) {
-            
+            nationalDay = "National Candied Orange Peel Day";
         }
         else if (today.getDate() == 5) {
-            
+            nationalDay = "National Totally Chipotle Day";
         }
         else if (today.getDate() == 6) {
-            
+            nationalDay = "National Crepe Suzette Day";
         }
         else if (today.getDate() == 7) {
-            
+            nationalDay = "National Roast Leg of Lamb Day";
         }
         else if (today.getDate() == 8) {
-            
+            nationalDay = "National Have a Coke Day";
         }
         else if (today.getDate() == 9) {
-            
+            nationalDay = "National Butterscotch Brownie Day";
         }
         else if (today.getDate() == 10) {
-            
+            nationalDay = "National Shrimp Day";
         }
         else if (today.getDate() == 11) {
-            
+            nationalDay = "National Eat What You Want Day";
         }
         else if (today.getDate() == 12) {
-            
+            nationalDay = "National Nutty Fudge Day";
         }
         else if (today.getDate() == 13) {
-            
+            nationalDay = "National Apple Pie Day";
         }
         else if (today.getDate() == 14) {
-            
+            nationalDay = "National Buttermilk Biscuit Day";
         }
         else if (today.getDate() == 15) {
-            
+            nationalDay = "National Chocolate Chip Day";
         }
         else if (today.getDate() == 16) {
-            
+            nationalDay = "National Mimosa Day";
         }
         else if (today.getDate() == 17) {
-            
+            nationalDay = "National Cherry Cobbler Day";
         }
         else if (today.getDate() == 18) {
-            
+            nationalDay = "National Cheese Souffle Day";
         }
         else if (today.getDate() == 19) {
-            
+            nationalDay = "National Devil's Food Cake Day";
         }
         else if (today.getDate() == 20) {
-            
+            nationalDay = "National Quiche Lorraine Day";
         }
         else if (today.getDate() == 21) {
-            
+            nationalDay = "National Strawberries and Cream Day";
         }
         else if (today.getDate() == 22) {
-            
+            nationalDay = "National Vanilla Pudding Day";
         }
         else if (today.getDate() == 23) {
-            
+            nationalDay = "National Taffy Day";
         }
         else if (today.getDate() == 24) {
-            
+            nationalDay = "National Escargot Day";
         }
         else if (today.getDate() == 25) {
-            
+            nationalDay = "National Wine Day";
         }
         else if (today.getDate() == 26) {
-            
+            nationalDay = "National Blueberry Cheesecake Day";
         }
         else if (today.getDate() == 27) {
-            
+            nationalDay = "National Grape Popsicle Day";
         }
         else if (today.getDate() == 28) {
-            
+            nationalDay = "National Hamburger Day";
         }
         else if (today.getDate() == 29) {
-            
+            nationalDay = "National Coq Au Vin Day";
         }
         else if (today.getDate() == 30) {
-
+            nationalDay = "National Mint Julep Day";
         }
         else if (today.getDate() == 31) {
-
+            nationalDay = "National Macaroon Day";
         }
     }
     // June
     else if (today.getMonth() == 5) {
         if (today.getDate() == 1) {
-
+            nationalDay = "";
         }
         else if (today.getDate() == 2) {
-
+            nationalDay = "";
         }
         else if (today.getDate() == 3) {
-
+            nationalDay = "";
         }
         else if (today.getDate() == 4) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 5) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 6) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 7) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 8) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 9) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 10) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 11) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 12) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 13) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 14) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 15) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 16) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 17) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 18) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 19) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 20) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 21) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 22) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 23) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 24) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 25) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 26) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 27) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 28) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 29) {
-            
+            nationalDay = "";
         }
         else if (today.getDate() == 30) {
-            
+            nationalDay = "";
         }
     }
     // July

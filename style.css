@@ -3,13 +3,17 @@ hr {
     margin: 2% auto;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .dark-section {
     background-color: #292b2c;
-        color: #f5f5f5;
-        padding: 5% 10%;
-        width: 100vw;
-        position: relative;
-        left: calc(-50vw + 50%);
+    color: #f5f5f5;
+    padding: 5% 10%;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
 }
 
 .white-section {
