@@ -3,13 +3,17 @@ hr {
     margin: 2% auto;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .dark-section {
     background-color: #292b2c;
-        color: #f5f5f5;
-        padding: 5% 10%;
-        width: 100vw;
-        position: relative;
-        left: calc(-50vw + 50%);
+    color: #f5f5f5;
+    padding: 5% 10%;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
 }
 
 .white-section {
@@ -21,6 +25,42 @@ hr {
 }
 
 .card {margin: .5%;}
+
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333333;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.text {
+    position: relative;
+    z-index: 10;
+}
+
+#module1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100vh;
+}
 
 @media all and (max-width: 768px) {
     body {

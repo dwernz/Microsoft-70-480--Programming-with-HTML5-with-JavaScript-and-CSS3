@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#module1">Module 1</a>
+                            <a class="nav-link active" aria-current="page" href="#mod-1-nav">Module 1</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#module2">Module 2</a>
@@ -56,23 +56,41 @@
         </nav>
         <!-- Navigation Section End-->
 
-        <h1 class="text-center mt-5">KO Tech Academy's Microsoft 70-480: Programming with HTML5 with JavaScript and
-            CSS3</h1>
-        <p class="text-center mt-3 w-75 mx-auto">
-            This webpage shows all the lessons created during this course. I did style this using Bootstrap, unlike the other
-            two webpages I made for the KO Tech Academy courses.
-            Even though these are sites just to showcase the lessons that are learnt in this course, I felt that they did not 
-            look the best, and wanted to change that with this one.
-        </p>
+        <div class="showcase">
+            <div class="text">
+                <h1 class="text-center mt-5">KO Tech Academy's Microsoft 70-480: Programming with HTML5 with JavaScript and
+                    CSS3</h1>
+                <p class="text-center mt-3 w-75 mx-auto">
+                    This webpage shows all the lessons created during this course. I did style this using Bootstrap, unlike the other
+                    two webpages I made for the KO Tech Academy courses.
+                    Even though these are sites just to showcase the lessons that are learnt in this course, I felt that they did not
+                    look the best, and wanted to change that with this one.
+                </p>
 
-        <div id="dayWrite" class="text-center mb-5">
-            <script>dayWrite();</script>
+                <div id="dayWrite" class="text-center mb-5">
+                    <script>dayWrite();</script>
+                </div>
+            </div>
+            <video src="back.mp4" muted autoplay loop></video>
         </div>
+        
         
         <!-- Module 1 -->
         <div class="dark-section" id="module1">
-            <h3 class="text-center">Module 1: Introduction to Web Development Technologies</h3>
+            <div id="mod-1-nav" style="height:90px;"></div>
+            <h3 class="text-center" >Module 1: Introduction to Web Development Technologies</h3>
             <div class="row justify-content-center mt-5">
+                
+                <div class="card text-dark col-lg-3">
+                    <div class="card-body">
+                        <h5 class="card-title border-bottom">Hello World</h5>
+                        <p class="card-text">The first webpage for this course. Very basic, just setting up the webpage, and using some header tags</p>
+                        <div class="text-center">
+                            <a href="Module_1/helloWorld.html" class="btn btn-primary" target="_blank">Visit Webpage</a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="card text-dark col-lg-3">
                     <div class="card-body">
                         <h5 class="card-title border-bottom">Card title</h5>
@@ -83,16 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card text-dark col-lg-3">
-                    <div class="card-body">
-                        <h5 class="card-title border-bottom">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                            content.</p>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
             <div class="text-center mt-5">
