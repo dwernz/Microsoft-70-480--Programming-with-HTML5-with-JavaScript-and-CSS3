@@ -570,97 +570,97 @@ function dayWrite() {
     // July
     else if (today.getMonth() == 6) {
         if (today.getDate() == 1) {
-
+            nationalDay = "National Creative Ice Cream Flavors Day";
         }
         else if (today.getDate() == 2) {
-
+            nationalDay = "National Anisette Day";
         }
         else if (today.getDate() == 3) {
-
+            nationalDay = "National Chocolate Wafer Day";
         }
         else if (today.getDate() == 4) {
-            
+            nationalDay = "National Caesar Salad Day";
         }
         else if (today.getDate() == 5) {
-            
+            nationalDay = "National Apple Turnover Day";
         }
         else if (today.getDate() == 6) {
-            
+            nationalDay = "National Fried Chicken Day";
         }
         else if (today.getDate() == 7) {
-            
+            nationalDay = "National Strawberry Sundae Day";
         }
         else if (today.getDate() == 8) {
-            
+            nationalDay = "National Freezer Pop Day";
         }
         else if (today.getDate() == 9) {
-            
+            nationalDay = "National Sugar Cookie Day";
         }
         else if (today.getDate() == 10) {
-            
+            nationalDay = "National Pina Colada Day";
         }
         else if (today.getDate() == 11) {
-            
+            nationalDay = "National Blueberry Muffin Day";
         }
         else if (today.getDate() == 12) {
-            
+            nationalDay = "National Pecan Pie Day";
         }
         else if (today.getDate() == 13) {
-            
+            nationalDay = "National Beans 'N' Franks Day";
         }
         else if (today.getDate() == 14) {
-            
+            nationalDay = "National Grand Marnier Day";
         }
         else if (today.getDate() == 15) {
-            
+            nationalDay = "National Tapioca Pudding Day";
         }
         else if (today.getDate() == 16) {
-            
+            nationalDay = "National Corn Fritters Day";
         }
         else if (today.getDate() == 17) {
-            
+            nationalDay = "National Peach Ice Cream Day";
         }
         else if (today.getDate() == 18) {
-            
+            nationalDay = "National Caviar Day";
         }
         else if (today.getDate() == 19) {
-            
+            nationalDay = "National Daiquiri Day";
         }
         else if (today.getDate() == 20) {
-            
+            nationalDay = "National Fortune Cookie Day";
         }
         else if (today.getDate() == 21) {
-            
+            nationalDay = "National Junk Food Day";
         }
         else if (today.getDate() == 22) {
-            
+            nationalDay = "National Mango Day";
         }
         else if (today.getDate() == 23) {
-            
+            nationalDay = "National Vanilla Ice Cream Day";
         }
         else if (today.getDate() == 24) {
-            
+            nationalDay = "National Tequila Day";
         }
         else if (today.getDate() == 25) {
-            
+            nationalDay = "National Hot Fudge Sundae Day";
         }
         else if (today.getDate() == 26) {
-            
+            nationalDay = "National Coffee Milkshake Day";
         }
         else if (today.getDate() == 27) {
-            
+            nationalDay = "National Creme Brulee Day";
         }
         else if (today.getDate() == 28) {
-            
+            nationalDay = "National Milk Chocolate Day";
         }
         else if (today.getDate() == 29) {
-            
+            nationalDay = "National Chicken Wing Day";
         }
         else if (today.getDate() == 30) {
-
+            nationalDay = "National Cheesecake Day";
         }
         else if (today.getDate() == 31) {
-
+            nationalDay = "National Raspberry Cake Day";
         }
     }
     // August

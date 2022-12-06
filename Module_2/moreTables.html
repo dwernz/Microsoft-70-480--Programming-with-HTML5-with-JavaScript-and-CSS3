@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tables 2</title>
+    <meta charset="utf-8">
+    <style>
+        table {
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
+        table#t01 tr:nth-child(even) {
+            background-color: #eeeeee;
+        }
+        table#t01 tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        table#t01 th {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="t01">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Smith</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>James</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Kim</td>
+            <td>Jones</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Amber</td>
+            <td>Holmes</td>
+            <td>55</td>
+        </tr>
+    </table>
+</body>
+
+</html>
