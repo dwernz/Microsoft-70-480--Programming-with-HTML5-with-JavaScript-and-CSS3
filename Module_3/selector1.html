@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Selectors</title>
+    <meta charset="utf-8">
+    <style>
+        div ~ p {
+            background-color: green;
+        }
+        div p {
+            background-color: yellow;
+        }
+        div + p {
+            background-color: blue;
+        }
+        div > p {
+            background-color: red;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Para 1</p>
+        <p>Para 2</p>
+        <span><p>Para 3</p></span>
+    </div>
+    <p>Not in div</p>
+    <p>Not in div</p>
+</body>
+
+</html>

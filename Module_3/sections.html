@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sections</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            counter-reset: section;
+        }
+        h1 {
+            counter-reset: subsection;
+        }
+        h1:before {
+            counter-increment: section;
+            content: "Section " counter(section) ". ";
+        }
+        h2:before {
+            counter-increment: subsection;
+            content: counter(section) "." counter(subsection) " ";
+        }
+        h2 {
+            counter-reset: subsubsection;
+        }
+        h3:before {
+            counter-increment: subsubsection;
+            content: counter(section) "." counter(subsection) "." counter(subsubsection) " ";
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS/HTML Tutorial</h1>
+    <h2>More Lessons</h2>
+    <h2>XHTML Lessons</h2>
+    <h2>XML Lessons</h2>
+    <h1>JavaScript Lessons</h1>
+    <h2>jQuery Lessons</h2>
+    <h2>Knockout Lessons</h2>
+    <h1>More on C#</h1>
+    <h2>C# with PowerShell</h2>
+    <h2>AD Admin with PowerShell</h2>
+    <h2>VM in Hyper-V with PowerShell</h2>
+</body>
+
+</html>
